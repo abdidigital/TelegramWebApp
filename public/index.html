@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>WebApp Telegram</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script src="https://telegram.org/js/telegram-web-app.js"></script>
+  </head>
+  <body>
+    <h2>Selamat datang di WebApp Telegram</h2>
+    <p>ID pengguna Telegram: <span id="user_id"></span></p>
+    <button onclick="Telegram.WebApp.close()">Tutup WebApp</button>
+
+    <script>
+      const tg = window.Telegram.WebApp;
+      document.getElementById("user_id").innerText = tg.initDataUnsafe?.user?.id || "Tidak diketahui";
+    </script>
+  </body>
+</html>

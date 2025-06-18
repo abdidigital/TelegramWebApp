@@ -6,7 +6,7 @@ const app = express();
 const PORT = process.env.PORT || 3000;
 
 // === BOT TELEGRAM ===
-const token = "ISI_TOKEN_BOT_KAMU"; // ganti dengan tokenmu
+const token = "7759143007:AAHa-hycr1T6vaWdKQ5Hhc7yaDI0DglPbVQ"; // ganti dengan tokenmu
 const bot = new TelegramBot(token, { polling: true });
 
 const WEBAPP_URL = "https://webapp-telegram-xxxx.onrender.com"; // ganti setelah deploy

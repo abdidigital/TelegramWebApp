@@ -1,0 +1,12 @@
+{
+  "name": "telegram-webapp",
+  "version": "1.0.0",
+  "description": "WebApp Telegram via Render",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
